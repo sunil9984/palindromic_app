@@ -1,16 +1,65 @@
-# React + Vite
+Palindrome Checker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that checks whether a given string is a palindrome or not. The app takes user input, analyzes the string, and displays the result instantly.
 
-Currently, two official plugins are available:
+Features
+Enter any string
+Check whether the string is a palindrome
+Simple and responsive user interface
+Built using React Hooks (useState)
+Beginner-friendly React project
+Tech Stack
+React.js
+JavaScript (ES6+)
+HTML5
+CSS3
+How It Works
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A palindrome is a word, phrase, number, or sequence that reads the same backward as forward.
 
-## React Compiler
+Examples
+Input	Result
+madam	Palindrome
+racecar	Palindrome
+hello	Not a Palindrome
+level	Palindrome
+Installation
+Clone the Repository
+git clone <your-repository-url>
+Navigate to the Project
+cd palindrome-checker
+Install Dependencies
+npm install
+Start the Development Server
+npm run dev
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application will run on:
 
-## Expanding the ESLint configuration
+http://localhost:5173
+Project Structure
+palindrome-checker/
+│
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── public/
+├── package.json
+└── README.md
+Learning Outcomes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Through this project, I learned:
+
+React functional components
+React Hooks (useState)
+Event handling in React
+Controlled input fields
+Conditional rendering
+Basic string manipulation algorithms
+Future Improvements
+Ignore spaces and special characters
+Case-insensitive palindrome checking
+Real-time validation while typing
+Better UI with Tailwind CSS
+Support for sentences and phrases
